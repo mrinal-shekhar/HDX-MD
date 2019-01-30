@@ -10,13 +10,19 @@ MATPLOTLIB:
 # USAGE
 # Contact calculation
 
-cd  Contact.
+cd  Contact
 
-Getting the average contact: vmd -dispdev -text -e measure_contact_memb.tcl .
-Data formatting python count.py.
-Data plotting python plot.py .
+Getting the average contact: vmd -dispdev -text -e measure_contact_memb.tcl 
 
-Density calculation 
+Data formatting python count.py
+
+Data plotting python plot.py 
+
+# Density calculation 
+
 cd Density
+
 Getting the density: vmd64 -dispdev text -e measure-density.tcl 
+
 Data plotting: python plot.py
+
