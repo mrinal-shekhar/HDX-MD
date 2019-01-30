@@ -2,9 +2,9 @@
 
 
 #Loading the .psf file
-mol load psf system.psf
+mol load psf ../system.psf
 #Loading the trajectory file
-mol addfile traj.dcd waitfor all step 1
+mol addfile ../traj.dcd waitfor all step 1
 
 #allign the protein#
 package require pbctools
@@ -55,5 +55,5 @@ close $filex
 close $filey
 
 puts done
-#quit
+quit
 
