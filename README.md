@@ -8,7 +8,9 @@ Python is also used for data processing and plot generation.
 
 # linux/mac installation:
 install latest version of Anaconda: https://www.anaconda.com/download/
+
 install packages
+
 pip install matplotlib
 
 # USAGE
