@@ -1,7 +1,7 @@
 #Loading the .psf file
-mol load psf system.psf
+mol load psf ../system.psf
 #Loading the trajectory file
-mol addfile eq.1.dcd waitfor all step 1
+mol addfile ../traj.dcd waitfor all step 1
 
 #allign the protein#
 set sel0 [atomselect 0 "protein"]
