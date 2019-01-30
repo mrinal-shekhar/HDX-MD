@@ -9,7 +9,9 @@ NUMPY:
 MATPLOTLIB:
 # USAGE
 # Contact calculation
+
 cd  Contact.
+
 Getting the average contact: vmd -dispdev -text -e measure_contact_memb.tcl .
 Data formatting python count.py.
 Data plotting python plot.py .
