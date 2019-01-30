@@ -3,7 +3,7 @@ This contains the analysis for the lipid-protein interaction from MD simulation 
 The trajectory (traj.dcd) is provided along with the topology file system.psf.
 There are two folders Contact and Density. Contact folder measures the average contact frequency of the Phospohorus atom of the DOPE headgroup with the protein atoms. Density measures the  lipid headgroup density at a particular z coordinate.
 # Softwares required.
-Analysis is performed using the tcl scripts. To perform the analysis user has to download VMD. VMD can be obtained here.
+Analysis is performed using the tcl scripts. To perform the analysis user has to download VMD. VMD can be obtained here https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD.
 Python is also used for data processing and plot generation. 
 User needs to install the following libraries:
 
