@@ -13,7 +13,7 @@ install packages
 
 pip install matplotlib
 
-# USAGE
+# Usage
 # Contact calculation
 
 cd  Contact
