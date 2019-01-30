@@ -8,11 +8,11 @@ Python is also used for data processing and plot generation. User needs to insta
 NUMPY:
 MATPLOTLIB:
 # USAGE
-Contact calculation
-cd  Contact
-Getting the average contact: vmd -dispdev -text -e measure_contact_memb.tcl 
-Data formatting python count.py
-Data plotting python plot.py
+# Contact calculation
+cd  Contact.
+Getting the average contact: vmd -dispdev -text -e measure_contact_memb.tcl .
+Data formatting python count.py.
+Data plotting python plot.py .
 
 Density calculation 
 cd Density
