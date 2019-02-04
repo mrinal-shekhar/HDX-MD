@@ -16,10 +16,10 @@ git clone https://github.com/mrinal-shekhar/HDX-MD.git
 This downloads a folder HDX-MD.
 
 # Installing VMD 
-Visulalization and analysis is done on VMD using tcl scripts that are run on the tkconsole.
-Analysis is performed using the tcl scripts. To perform the analysis user has to download VMD. VMD can be obtained here https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD.
-Python is also used for data processing and plot generation. 
+Visulalization and analysis is done on VMD using tcl scripts that are run on the tkconsole. Detailed instructions to download VMD be obtained here https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD. After installing VMD, go to HDX-MD folder that was downloaded and load the toplology (system.psf) and the trajectory file (traj.dcd). To load these files from command line use vmd system.psf and traj.dcd. Please make sure that the trajectory is properly loaded. You can now exit VMD.
 
+# Installing python libraries
+Python is used for data processing and plot generation. 
 # linux/mac installation:
 install latest version of Anaconda: https://www.anaconda.com/download/
 
