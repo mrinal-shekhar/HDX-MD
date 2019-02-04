@@ -9,9 +9,14 @@ In order to follow the tutorial and to download the necessary files, users shoul
 
 https://www.atlassian.com/git/tutorials/install-git
 
-After the git has been installed one needs to go to the directory where the analysis is to be done and download the files from command line
+After the git has been installed one needs to go to the directory where the analysis is to be done and download the files from command line:
+
 git clone https://github.com/mrinal-shekhar/HDX-MD.git
-This downloads a folder HDX-MD
+
+This downloads a folder HDX-MD.
+
+# Installing VMD 
+Visulalization and analysis is done on VMD using tcl scripts that are run on the tkconsole.
 Analysis is performed using the tcl scripts. To perform the analysis user has to download VMD. VMD can be obtained here https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD.
 Python is also used for data processing and plot generation. 
 
